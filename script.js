@@ -3,11 +3,11 @@ function firstWord(s) {
 	if (s=="") {
 		return s;
 	}
-		s.trim();
 	else if(s != ""){
 		
 		let str="";
 		for (let t of s) {
+			if(s[0] == " ") continue;
 			str += t;
 			if (t == " ") {
 				break;
