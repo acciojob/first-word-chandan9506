@@ -3,8 +3,9 @@ function firstWord(s) {
 	if (s=="") {
 		return s;
 	}
-	else if(s != ""){
 		s.trim();
+	else if(s != ""){
+		
 		let str="";
 		for (let t of s) {
 			str += t;
