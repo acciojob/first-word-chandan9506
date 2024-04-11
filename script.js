@@ -4,10 +4,10 @@ function firstWord(s) {
 		return s;
 	}
 	else if(s != ""){
-		
+		let s1 = s.trim();
 		let str="";
-		for (let t of s) {
-			if(s[0] == " ") continue;
+		for (let t of s1) {
+			
 			str += t;
 			if (t == " ") {
 				break;
@@ -21,5 +21,5 @@ function firstWord(s) {
 
 // Do not change the code below
 
-// const s = prompt("Enter String:");
+const s = prompt("Enter String:");
 alert(firstWord(s));
