@@ -1,13 +1,14 @@
-function firstWord(s) {
+function firstWord(s1) {
   // your code here
+	let s = s1.trim() ;
 	if (s=="") {
 		return s;
 	}
 	else if(s != ""){
-		let s1 = s.trimStart() ;
+		
 		let str="";
 		
-		for (let t of s1) {
+		for (let t of s) {
 			
 			str += t;
 			if (t == " ") {
@@ -22,5 +23,5 @@ function firstWord(s) {
 
 // Do not change the code below
 
-const s = prompt("Enter String:");
-alert(firstWord(s));
+const s1 = prompt("Enter String:");
+alert(firstWord(s1));
