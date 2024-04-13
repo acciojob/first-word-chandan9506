@@ -25,3 +25,4 @@ function firstWord(s1) {
 
 const s1 = prompt("Enter String:");
 alert(firstWord(s1));
+
